@@ -1,0 +1,22 @@
+{
+  "name": "7updown",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=test & node server.js"
+  },
+  "author": "jaydeep kasture",
+  "license": "ISC",
+  "description": ""
+}
